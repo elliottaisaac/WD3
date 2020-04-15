@@ -1,0 +1,60 @@
+@media only screen and (max-width:600px){
+    nav{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        position: fixed;
+        top: 32px;
+        z-index: 2;
+    }
+
+    #navLogo {
+        left: -24px;
+    }
+
+    #hamburger{
+        left: calc(100% - 24px);
+        top: -12px;
+    }
+
+    #masthead{
+        top: 32px;
+    }
+
+    #navbar{
+        transform: translateY(-32px);
+        height: 80px;
+    }
+    
+    #hamburgerMenu{
+        width: 100vw;
+        height: 94vh !important;
+        position: fixed;
+        left: -32px;
+        top: 32px;
+    }
+    #hamburgerMenu li a{
+        font-size: 320%;
+        margin-left: -300px;
+        transition: margin 0.625s;
+    }
+
+    .wave{
+        margin-top: 16px !important;
+    }
+
+    #typing{
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    #cursor{
+        transform: scale(0.375) translateY(-144px);
+    }
+
+    #lead{
+        margin-top: 180px;
+    }
+
+    #mockup{
+        margin-left: 10%;
+    }
+}

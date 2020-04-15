@@ -1,0 +1,89 @@
+#landingPage2Column{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+}
+
+#mockup{
+    height: 500px;
+    margin:auto;
+}
+#mockup img{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+#landingPageAnimation{
+    grid-column: 2/span 1;
+    overflow: hidden;
+   /* background-color: /*#373449  #00cc66; */
+    /* background-image: linear-gradient(#00cc66 0%,#00cc66 20%, #00b26e 100%, #373449 100%); */
+}
+
+#animationContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 80vh;
+    margin-bottom: 72px;
+}
+
+#animationContainer div{
+    width: 0vw;
+    height: 0vw;
+    transition: width 2s ease-out, height 2s ease-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#text1, #text2, #typing{
+    color:#e9e8e8;
+    font-size: 120px;
+    position: relative;
+    font-family: cubano, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding:48px;
+}
+
+#text2{
+    color:#373449;
+}
+
+#typing{
+    font-size: 150px;
+    padding: 0px;
+    line-height: 200px;
+    cursor: default;
+}
+
+#cursor{
+    position: absolute;
+    transform: translateY(12px);
+}
+
+#lead{
+    max-width: 1000px;
+    margin-left: 10vw;
+    height: 600px;
+    margin-top: 60px;
+}
+
+.CowSpots{
+    background-color:#e9e8e8;
+    background-image: url("../assets/img/spots.png");
+    height: 600px;
+    width: 100vw;
+}   
+
+.MOO{
+    font-size: 480px;
+    line-height: 100%;
+    color: #00cc66;
+    font-family: cubano, sans-serif;
+    transform: translateX(200vw);
+    transition: 6s transform ease-out;
+}

@@ -1,0 +1,31 @@
+body{
+    background-color: #00cc66;
+    margin:0px;
+}
+
+.hidden{
+    display: none;
+}
+
+.spacer12,.spacer24,.spacer36,.spacer48,.spacer60, .spacer72{
+    display: block;
+    width: 0px;
+}
+.spacer12{
+    height: 12px;
+}
+.spacer24{
+    height: 24px;
+}
+.spacer36{
+    height: 36px;
+}
+.spacer48{
+    height: 48px;
+}
+.spacer60{
+    height: 60px;
+}
+.spacer72{
+    height: 72px;
+}
